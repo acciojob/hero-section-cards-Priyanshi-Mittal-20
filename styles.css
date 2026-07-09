@@ -1,11 +1,13 @@
 /*  your css code here. If applicable */
-.hero{
+.hero-section{
 	height:500px;
-	background-image:url("https://m.media-amazon.com/images/I/51ZVeRqZvGL._SX3000_.jpg");
-	width:100%;
 	display:flex;
 }
-.cards{
+.hero-section img{
+	width:100%;
+	height:100%;
+}
+.product-cards{
 	position:absolute;
 	offset:250px 0px 0px 50px;
 	width:300px;
@@ -13,7 +15,7 @@
 	background-color:white;
 	box-shadow:2px 2px grey;
 }
-.cards img{
+.product-cards img{
 	width:100px;
 	height:150px;
 	object-fit:cover;
